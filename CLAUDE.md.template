@@ -1,0 +1,159 @@
+# About Me
+
+## Role and Context
+
+I work in **[your function, e.g., Strategy and Operations] at [your organization]**, on **[the program or product you own]**. My scope spans:
+
+- [Owning area 1, e.g., lifecycle communications for enrolled users]
+- [Owning area 2, e.g., member engagement experimentation]
+- [Owning area 3, e.g., specialist operations and coaching quality]
+- [Owning area 4, e.g., AI agent initiative or automation pipelines]
+
+[One sentence of context on what your program does and who it serves.]
+
+I report to [name or role].
+
+---
+
+## My Tool Stack
+
+- **[Note-taking / planning tool]** -- weekly planning, daily logs, task carryover (e.g., Obsidian, Notion)
+- **[Documentation tool]** -- ops reports, decision logs, project tracking (e.g., Notion)
+- **[Meeting notes tool]** -- meeting summaries and action items (e.g., Granola, Otter, Fireflies)
+- **[Automation platform]** -- pipelines and agents (e.g., n8n, Zapier, Make)
+- **[Communications platform]** -- user/member lifecycle emails, SMS, journeys (e.g., Iterable, Braze, Customer.io)
+- **[Data / analytics tool]** -- member analytics and reporting (e.g., Looker, Metabase, Amplitude)
+- **[AI model]** -- the AI I use for agents and skill execution (e.g., Claude)
+
+---
+
+## Active Projects (as of [quarter and year])
+
+- **[Project 1 name]** -- [one sentence: what it is, where it stands]
+- **[Project 2 name]** -- [one sentence: what it is, where it stands]
+- **[Project 3 name]** -- [one sentence: what it is, where it stands]
+
+[Keep this list to 3-6 active projects. If you have more, you have too many.]
+
+---
+
+## Writing and Communication Style
+
+**Always:**
+
+- [Style rule 1, e.g., Clear, direct, low-friction prose]
+- [Style rule 2, e.g., Empathy first, pressure reduced, first step made small]
+- [Terminology rule, e.g., "members" not "users"; "activity" not "session"]
+- [Format rule, e.g., Short sentences. No padding.]
+
+**Never:**
+
+- [Avoid rule 1, e.g., Em dashes]
+- [Avoid rule 2, e.g., Shame, moralizing, over-hyping]
+- [Avoid rule 3, e.g., Bullet points when prose works fine]
+- [Avoid rule 4, e.g., Jargon that obscures instead of clarifies]
+
+---
+
+## How I Think About Work
+
+[Write your operating doctrine here. This is the most important section. The AI reads this to understand not just what you do but how you decide. Be specific about your philosophy.]
+
+Example structure:
+
+**[Your core belief about your work -- one sentence.]**
+
+Practically, this means:
+
+- [Principle 1, e.g., Before anything ships, ask: does this make the user feel safer or more pressured?]
+- [Principle 2, e.g., Retention is not reminder frequency. It is trust plus visible progress.]
+- [Principle 3, e.g., Build systems, not campaigns. Scale only after proof.]
+- [Principle 4, e.g., One meaningful bet per month. Kill distractions aggressively.]
+- [Principle 5, e.g., When a metric dips, look for friction to remove, not intensity to add.]
+
+**The anti-patterns I watch for in myself:**
+
+- [Anti-pattern 1, e.g., Expanding initiative count without validating what is already running]
+- [Anti-pattern 2, e.g., Optimizing flows before proving the core bet]
+- [Anti-pattern 3, e.g., Seeking new ideas instead of making a decision]
+- [Anti-pattern 4, e.g., Staying in execution mode to avoid a harder strategic choice]
+
+---
+
+## Knowledge Sources
+
+- Context/learnings.md -- operational frameworks, learnings, and incident history
+- Context/annual-recap.md -- prior year performance recap
+- Context/quarterly-recap.md -- most recent quarter recap
+- Context/vision.md -- strategic direction and roadmap context
+- Context/decisions-log.md -- decision log
+
+[Add, remove, or rename these to match the files you actually maintain in Context/.]
+
+---
+
+## Key Metric Baselines (as of [date])
+
+- [Metric 1]: [value] [context, e.g., up from X at start of year]
+- [Metric 2]: [value] [context]
+- [Metric 3]: [value] [context]
+
+[Keep to 3-6 metrics that you actually track and reference in decisions.]
+
+---
+
+## Experimentation Standards
+
+Every experiment I run must answer:
+
+1. What friction are we removing?
+2. Does this increase activation or consistency?
+3. Does this strengthen the behavior we are trying to build?
+4. If it works, can it compound?
+5. If it fails, what did we actually learn?
+
+No hypothesis specifying friction and failure condition = not ready to launch.
+
+The `/grill-me` skill operationalizes this standard. Aria fires it automatically as a pre-routing step on any net-new bet (experiment, journey, automation, agent pipeline, strategic decision) where the brief does not already specify friction-being-removed and failure condition. It caps at 10 questions and produces a structured brief. Routine execution (copy generation, polishing, recurring tasks) never triggers the grill.
+
+---
+
+## Decision Filter
+
+Before helping me launch or finalize anything, run through:
+
+- [Filter 1, e.g., Does this reduce friction for the user?]
+- [Filter 2, e.g., Is this the highest leverage move this cycle?]
+- [Filter 3, e.g., Will this compound if successful?]
+- [Filter 4, e.g., Am I avoiding a harder decision?]
+
+If unclear on any of these, surface the question rather than defaulting to execution.
+
+---
+
+## Available Skills
+
+Invoke these with `/skill-name` or the trigger phrases below. Suggest them proactively when the context matches.
+
+- **aria** -- Chief of Staff. Routes any request to the best skill, executes it, reviews the output, and returns it. Default entry point for most requests.
+- **grill-me** -- pre-build interrogation. Fires automatically on net-new bets without a specified failure condition. Hard cap of 10 questions. Produces a structured brief.
+- **comms-writer** -- user or member-facing copy (email, SMS, push). Use for any lifecycle or campaign content.
+- **contrarian-advisor** -- red-team any output before it goes to leadership.
+- **internal-writer** -- polish Slack messages, emails, and business docs using Amazon writing principles.
+- **weekly-update** -- draft the leadership weekly email from raw sub-team notes.
+- **weekly-planner** -- generate the next week's planning note, pulling from your documentation platform, meeting notes, and current week's note.
+- **diagnose** -- structured debugging for automation failures, journey bugs, and metric anomalies.
+- **handoff** -- compact the current session into a transfer document for resumption later.
+
+---
+
+## Preferred Response Behaviors
+
+- Match my directness. Skip the preamble.
+- If something I am building has a flaw, say so clearly before helping me build it.
+- Default to prose, not bullet lists, unless structure genuinely helps.
+- [Add your formatting preferences, e.g., Never use em dashes.]
+- When writing copy for users or members, run it through the messaging doctrine (empathy, pressure reduction, small first step, support) before presenting it.
+- When I share a strategy or doc going to leadership, challenge it before validating it.
+- Before building anything net-new, grill me on it. If the brief is missing the friction-being-removed or the failure condition, run `/grill-me` before any execution skill.
+- When a request is multi-step or the scope could go more than one direction, state your working assumptions before proceeding. If two plausible interpretations exist, name them and ask which one.
